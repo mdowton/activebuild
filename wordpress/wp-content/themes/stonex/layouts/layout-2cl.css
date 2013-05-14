@@ -1,0 +1,85 @@
+/*
+LAYOUT: Two-Columns Left
+DESCRIPTION: Two Columns Fixed 940px Left Sidebar
+*/
+
+#left_col {
+	width: 600px;
+	float: right;
+	position: relative;
+	margin-left: 40px;
+	padding: 0;
+}
+
+#right_col {
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	position: relative;
+}
+/* ----------------------------------------------------- */
+/* Tablet (Portrait) */
+/* ----------------------------------------------------- */
+/* Width of 768px */
+/* ----------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+#left_col {
+	width: 458px !important;
+	float: right;
+	margin-left: 0;
+}
+#right_col {
+	width: 250px !important;
+	float: left;
+	margin-right: 20px !important;
+}
+
+}
+/* ----------------------------------------------------- */
+/* Mobile (Portrait) */
+/* ----------------------------------------------------- */
+/* Width of 320px */
+/* ----------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+	
+	/* ----------------------------------------------------- */
+
+#left_col {
+	width: 320px !important;
+	float: right;
+	margin-left: 0;
+}
+#right_col {
+	width: 320px !important;
+	float: left;
+	margin-right: 0 !important;
+}
+
+}
+	
+
+
+/* ----------------------------------------------------- */
+/* Mobile (Landscape */
+/* ----------------------------------------------------- */
+/* Width of 480px */
+/* ----------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#left_col {
+	width: 480px !important;
+	float: right;
+	margin-left: 0;
+}
+#right_col {
+	width: 480px !important;
+	float: left;
+	margin-right: 0 !important;
+}
+
+}

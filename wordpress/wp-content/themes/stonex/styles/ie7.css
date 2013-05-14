@@ -1,0 +1,14 @@
+/*-- IE 7 Hack --*/
+
+
+.subscribe {
+	zoom: 1;
+}
+.latest_portfolio {
+	zoon: 1;
+	overflow: hidden;	
+}
+.the_carousel {
+	zoom: 1;
+	overflow: hidden;	
+}

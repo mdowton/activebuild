@@ -1,0 +1,76 @@
+/*
+LAYOUT: Two-Columns Right
+DESCRIPTION: Two Columns Fixed 940px Right Sidebar
+*/
+
+#left_col {
+	width: 600px;
+	float: left;
+	position: relative;
+	margin-right: 40px;
+	padding: 0;
+}
+
+#right_col {
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+
+/* ----------------------------------------------------- */
+/* Tablet (Portrait) */
+/* ----------------------------------------------------- */
+/* Width of 768px */
+/* ----------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+#left_col {
+	width: 458px !important;
+	margin-right: 20px !important;
+}
+#right_col {
+	width: 250px !important;
+}
+
+}
+/* ----------------------------------------------------- */
+/* Mobile (Portrait) */
+/* ----------------------------------------------------- */
+/* Width of 320px */
+/* ----------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+	
+	/* ----------------------------------------------------- */
+
+#left_col {
+	width: 320px !important;
+	margin-right: 0 !important;
+}
+#right_col {
+	width: 320px !important;
+}
+
+}
+	
+
+
+/* ----------------------------------------------------- */
+/* Mobile (Landscape */
+/* ----------------------------------------------------- */
+/* Width of 480px */
+/* ----------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#left_col {
+	width: 480px !important;
+	margin-right: 0 !important;
+}
+#right_col {
+	width: 480px !important;
+}
+
+}
